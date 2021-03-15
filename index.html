@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ejercicio2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src='main.js'></script>
+
+    <style>
+            .btn:hover{
+                
+                transition-duration:  1s;
+                background-color: black !important;
+                transition-property: background-color;
+                
+                transform-origin: left right;
+                -o-transform-origin: left right;
+            }
+             .card-body:hover{
+                transition: 0.2s;
+                transform-origin: left right;
+                border-bottom-color: black;
+                border-bottom-style: solid; 
+                border-bottom-width: 10px;
+                box-shadow: 0px 10px 10px 10px rgb(195, 188, 188);
+                
+            } 
+            
+            .nav-link:hover{
+                transition: 0.5s;
+                transform-origin: left right;
+                border-bottom-color: #86BC42;
+                border-bottom-style: solid; 
+                border-bottom-width: 6px;
+                padding-top: 37px;
+                height: 100px;
+            }
+
+
+    </style>
+</head>
+<body>
+
+    <!-- nav -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow p-0 mb-5 bg-body rounded "  style="height: 100px;">
+        <div class="container-fluid" style="margin-left:350px;">
+          
+            <img src="./tt-logo-home.png" alt="logohome">
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item" style="margin-left: 350px;margin-right: 10px;border-bottom-color: #86BC42;border-bottom-style: solid; border-bottom-width: 6px;height: 100px;padding-top: 37px;">
+                        <a class="nav-link active p-0" aria-current="page" href="#" style="color: #86BC42" >HOME</a>
+                    </li>
+
+              <li class="nav-item dropdown" >
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 10px;color: black; padding-top: 37px;">
+                  .NET
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="border-bottom-color: #86BC42;border-bottom-style: solid; border-bottom-width: 6px;">
+                  <li><a class="dropdown-item" href="#">ASP.NET Core</a></li>
+                  <li><a class="dropdown-item" href="#">ASP.NET MVC</a></li>
+                  <li><a class="dropdown-item" href="#">Web API</a></li>
+                  <li><a class="dropdown-item" href="#">IoC</a></li>
+                  <li><a class="dropdown-item" href="#">LINQ</a></li>
+                  <li><a class="dropdown-item" href="#">C#</a></li>
+                  <li><a class="dropdown-item" href="#">HTTPS</a></li>
+                  
+                </ul>
+              
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 10px;color: black;padding-top: 37px;">
+                        JAVASCRIPT
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="border-bottom-color: #86BC42;border-bottom-style: solid; border-bottom-width: 6px;" >
+                        <li><a class="dropdown-item" href="#">Typescript</a></li>
+                        <li><a class="dropdown-item" href="#">Angular 11</a></li>
+                        <li><a class="dropdown-item" href="#">Angular JS 1</a></li>
+                        <li><a class="dropdown-item" href="#">Node.js</a></li>
+                        <li><a class="dropdown-item" href="#">D3.js</a></li>
+                        <li><a class="dropdown-item" href="#">Sass</a></li>
+                        <li><a class="dropdown-item" href="#">JQuery</a></li>
+                        <li><a class="dropdown-item" href="#">Javascript</a></li>
+                        
+                        </ul>
+                    </li>
+
+                    <li class="nav-item" >
+                        <a class="nav-link" href="https://www.tutorialsteacher.com/python" style="margin-right: 10px;color: black;padding-top: 37px;">PHYTON</a>
+                    </li>
+
+                    <li class="nav-item" >
+                        <a class="nav-link" href="https://www.tutorialsteacher.com/articles" style="margin-right: 10px;color: black;padding-top: 37px;">ARTICLES</a>
+                    </li>
+
+                    <li class="nav-item" >
+                        <a class="nav-link" href="https://www.tutorialsteacher.com/online-test" style="margin-right: 10px;color: black;padding-top: 37px;">TEST</a>
+                    </li>
+
+                <form class="d-flex">
+                
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+             </ul>
+            
+            </div>
+        </div>
+      </nav>
+
+      <!-- cards -->
+      <div class="primerFila d-flex flex-row justify-content-center">
+        <div class="card mb-1 bg-body rounded mx-3  " style="width: 17rem; height: 28em;">
+            <img src="./csharp.jpg" class="card-img-top img-fluid h-50 d-inline-block" alt="c-sharp" >
+            <div class="card-body d-grid gap-2 bg-light">
+            <h5 class="card-title">C#</h5>
+            <p class="card-text">Learn about C# datatypes, conditions, loops, collections, File I/O, delegates, events, generics, Func, Action, predicate and other advanced topics.</p>
+            <a href="#" class="btn btn-primary border " style="background-color: #86BC42;">START LEARNING</a>
+            </div>
+            <div class="progress">
+                        
+            </div>
+              
+        </div>
+
+      <div class="card mb-1 bg-body rounded mx-3" style="width: 17rem; height: 28em;">
+        <img src="./aspnet.jpg" class="card-img-top img-fluid " alt="asp.net mvc" style="height: 11.2em;">
+        <div class="card-body d-grid gap-2 bg-light">
+          <h5 class="card-title">ASP.NET MVC</h5>
+          <p class="card-text">Learn ASP.NET MVC Architecture, controller, action method, routing, model, view, html helpers, model binding, partial view, bundling etc.</p>
+          <a href="#"  class="btn btn-primary border " style="background-color: #86BC42;">START LEARNING</a>
+        </div>
+        <div class="progress">
+                        
+        </div>
+
+      </div>
+
+      <div class="card  mb-1 bg-body rounded mx-3" style="width: 17rem; height: 28em;">
+        <img src="./linq.jpg" class="card-img-top img-fluid " alt="LINQ" style="height: 11.2em;">
+        <div class="card-body d-grid gap-2 bg-light">
+          <h5 class="card-title">LINQ</h5>
+          <p class="card-text">Learn about LINQ query syntax, method syntax, lambda expression, Standard Query Operators, expression, expression tree etc.</p>
+          <a href="#" class="btn btn-primary border " style="background-color: #86BC42;">START LEARNING</a>
+        </div>
+        <div class="progress">
+                        
+        </div>
+      </div>
+
+      <div class="card  mb-1 bg-body rounded mx-3" style="width: 17rem; height: 28em;">
+        <img src="./webapi.png" class="card-img-top img-fluid " alt="web api" style="height: 11.2em;">
+        <div class="card-body d-grid gap-2 bg-light">
+          <h5 class="card-title">Web API</h5>
+          <p class="card-text">Learn ASP.NET Web API step by step. Learn about creating and configuring Web API, consuming Web API, Web API Routing, HttpClient etc.</p>
+          <a href="#" class="btn btn-primary border  " style="background-color: #86BC42;">START LEARNING</a>
+        </div>
+        <div class="progress">
+                        
+        </div>
+       
+      </div>
+
+      </div>
+      
+      <div class="segundaFila d-flex flex-row justify-content-center">
+            
+
+                <div class="card  mb-1 bg-body rounded mx-3 mt-5 " style="width: 17rem; height: 28em; top: 100px;">
+                    <img src="./javascript.jpg" class="card-img-top img-fluid " alt="javascript" style="height: 12em;">
+                    <div class="card-body d-grid gap-2 bg-light">
+                      <h5 class="card-title">JavaScript</h5>
+                      <p class="card-text">Learn JavaScript from scratch. Learn about JavaScript variables, datatypes, operators, function, object etc.</p>
+                      <a href="#" class="btn btn-primary border " style="background-color: #86BC42;">START LEARNING</a>
+                    </div>
+                    <div class="progress">
+                        
+                      </div>
+                  </div>
+
+                  <div class="card  mb-1 bg-body rounded mx-3 mt-5" style="width: 17rem; height: 28em;top: 100px;">
+                    <img src="./jquery.png" class="card-img-top img-fluid " alt="jquery" style="height: 12em;">
+                    <div class="card-body d-grid gap-2 bg-light">
+                      <h5 class="card-title">JQuery</h5>
+                      <p class="card-text">Learn jQuery in easy steps. It covers topics like jQuery selectors, events, DOM Manipulation, AJAX etc.</p>
+                      <a href="#" class="btn btn-primary border " style="background-color: #86BC42;">START LEARNING</a>
+                    </div>
+                    <div class="progress">
+                        
+                      </div>
+                  </div>
+
+                  <div class="card  mb-1 bg-body rounded mx-3 mt-5" style="width: 17rem; height: 28em; top: 100px;">
+                    <img src="./nodejs.jpg" class="card-img-top img-fluid " alt="node.js" style="height: 12em;">
+                    <div class="card-body d-grid gap-2 bg-light">
+                      <h5 class="card-title">Node.js</h5>
+                      <p class="card-text">Learn fundamentals of Node.js. Learn about Node.js console, NPM, modules, event emitter, data access, template engine etc.</p>
+                      <a href="#" class="btn btn-primary border " style="background-color: #86BC42;">START LEARNING</a>
+                    </div>
+                    <div class="progress">
+                        
+                      </div>
+                  </div>
+
+                  <div class="card mb-1 bg-body rounded mx-3 mt-5" style="width: 17rem; height: 28em; top: 100px;">
+                    <img src="./D3.png" class="card-img-top img-fluid " alt="d3.js" style="height: 12em;">
+                    <div class="card-body d-grid gap-2 bg-light">
+                      <h5 class="card-title">D3.js</h5>
+                      <p class="card-text">Learn to use JavaScript library D3.js for visualizing data using web standards.</p>
+                      <a href="#" class="btn btn-primary border " style="background-color: #86BC42;">START LEARNING</a>
+                    </div>
+                    <div class="progress">
+                        
+                      </div>
+                  </div>
+      </div>
+      
+
+
+      <!-- footer-->
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+</html>
